@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <memory.h>
 #include <math.h>
+#include <string.h>
 
 #define MAX_PONTOS 1000
 #define POS 4
@@ -11,7 +12,7 @@ typedef struct tSolucao {
     int fo;
 }Solucao;
 
-void le_dados(FILE*f);
+void le_dados(char* arq);
 void escreve_dados();
 void calcula_fo();
 void heu_con_ale();
