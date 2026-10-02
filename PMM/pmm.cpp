@@ -12,7 +12,7 @@ int main()
 {
     //srand(time(NULL));
     char arq[50];
-    strcpy(arq, "pmm3.txt");
+    strcpy(arq, "..\\pmm3.txt");
     ler_dados(arq);
     //strcpy(arq, "");
     //testar_dados(arq);
